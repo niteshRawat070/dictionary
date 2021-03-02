@@ -1,0 +1,69 @@
+::placeholder{
+  color: white;
+}
+.input{
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  width: 80%;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.btn{
+  font-size: 1.8rem;
+  color: white;
+  border: 1px solid white;
+  width: 30%;
+}
+.arrowBtn{
+  font-size: 1.5rem;
+  color: white;
+  background-color: #42b3f5;
+  width: 50%;
+  border: 1px solid #1aa1f0;
+  border-radius: 10px;
+  outline: 0 !important;
+  background:linear-gradient(to bottom,#6bd7f2,#6b86f2)
+}
+.aboutButton{
+  font-size: 1rem;
+  color: white;
+  background-color: #42b3f5;
+  width: 10vw;
+  border: 1px solid #1aa1f0;
+  border-bottom-right-radius: 10px;
+  outline: 0 !important;
+  background:linear-gradient(to bottom,#6bd7f2,#6b86f2)
+}
+.backdrop{
+  position:fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  /* 0.5 is the opacity */
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+.modal{
+  display: flex;
+  flex: 1;
+  max-width: 400px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+
+}
+.modal p{
+  color: #444;
+  font-weight: bold;
+}
